@@ -1,0 +1,14 @@
+.orders {
+  padding: 20px 10px;
+}
+.orders h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 30px 0; */
+}
+/* @media only screen and (max-width: 320px) {
+  .orders {
+    padding: -15px -15px;
+  }
+} */

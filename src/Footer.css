@@ -1,0 +1,34 @@
+.copyrightText {
+  display: flex;
+  position: fixed;
+  /* padding: 10px 10px 0px 10px; */
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  /* Height of the footer*/
+  height: 40px;
+  background: #fff;
+}
+.clear {
+  clear: both;
+  height: 30px;
+}
+.copyrightText .footer_Text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333;
+}
+.copyrightText a {
+  color: #ff0157;
+  font-weight: 500;
+  text-decoration: none;
+}
+@media (max-width: 407px) {
+  .copyrightText .footer_Text {
+    font-size: 13px;
+  }
+}
